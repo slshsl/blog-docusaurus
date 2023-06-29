@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'personal', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'leo blog', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,17 +44,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -77,11 +69,11 @@ const config = {
         items: [ 
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'informalEssay',
             position: 'left',
-            label: '文章',
+            label: '随笔',
           },         
-          {to: '/blog', label: '随笔', position: 'left'},         
+          {to: '/blog', label: '文章', position: 'left'},         
           {
             href: 'https://github.com/slshsl',
             label: 'GitHub',
@@ -96,11 +88,11 @@ const config = {
             title: '写作',
             items: [
               {
-                label: '文章',
+                label: '随笔',
                 to: '/docs/intro',
               },
               {
-                label: '随笔',
+                label: '文章',
                 to: '/blog',
               },
             ],
@@ -109,8 +101,8 @@ const config = {
             title: '社区',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '稀土掘金',
+                href: 'https://juejin.cn/user/1878406966296791/posts',
               }
             ],
           },
@@ -119,12 +111,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/slshsl',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Leo Site, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
