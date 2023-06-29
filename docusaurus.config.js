@@ -89,7 +89,7 @@ const config = {
             items: [
               {
                 label: '随笔',
-                to: '/docs/intro',
+                to: '/docs/a-front-end',
               },
               {
                 label: '文章',
