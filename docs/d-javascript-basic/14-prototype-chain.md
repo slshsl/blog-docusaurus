@@ -19,7 +19,6 @@ graph TD;
     E -- __proto__ --> H(null);
     F -- __proto__ --> E;
     G -- __proto__ --> F;
-
 ```
 
 - 特殊情况

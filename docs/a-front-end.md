@@ -2,5 +2,5 @@
 sidebar_position: 1
 ---
 
-# 前端
+# 前端小知识
 
