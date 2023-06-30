@@ -47,3 +47,17 @@ Facebook起草的JS扩展语法
     - 虽然JSX元素是一个对象，但是该对象中的所有属性不可更改
     
     - 如果确实需要更改元素的属性，需要重新创建JSX元素
+
+## 内部实现
+
+```jsx
+function createElement(type,config,…children){
+    let key;
+    let ref;
+    let props;
+    ....
+    return ReactElement(key,ref,props,...);
+}
+```
+
+内部源码主要实现的函数有createElement,ReactElement
