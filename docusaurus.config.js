@@ -52,6 +52,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: '全部博文',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
