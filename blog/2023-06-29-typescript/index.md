@@ -6,7 +6,7 @@ date: 2023-06-29T00:00
 tags: [零碎]
 ---
 
-![Alt text](img/typescript.png)
+![Alt text](img/banner.png)
 
 # 前言
 
